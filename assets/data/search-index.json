@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Portugal — visão geral (exemplo)",
+    "description": "Página estrutural para explorar os conteúdos de Portugal.",
+    "url": "portugal/index.html",
+    "country": "Portugal",
+    "category": "Visão geral",
+    "keywords": [
+      "portugal",
+      "planejamento"
+    ],
+    "status": "example"
+  },
+  {
+    "title": "Documentação em Portugal (exemplo)",
+    "description": "Estrutura editorial para organizar pesquisas documentais.",
+    "url": "portugal/documentacao.html",
+    "country": "Portugal",
+    "category": "Documentação",
+    "keywords": [
+      "documentos",
+      "fontes oficiais"
+    ],
+    "status": "example"
+  },
+  {
+    "title": "Trabalho em Portugal (exemplo)",
+    "description": "Estrutura editorial para preparação profissional.",
+    "url": "portugal/trabalho.html",
+    "country": "Portugal",
+    "category": "Trabalho",
+    "keywords": [
+      "emprego",
+      "carreira"
+    ],
+    "status": "example"
+  },
+  {
+    "title": "Moradia em Portugal (exemplo)",
+    "description": "Estrutura para comparar opções de moradia.",
+    "url": "portugal/moradia.html",
+    "country": "Portugal",
+    "category": "Moradia",
+    "keywords": [
+      "casa",
+      "alojamento"
+    ],
+    "status": "example"
+  },
+  {
+    "title": "Modelo interno não exibido",
+    "description": "Registro usado para verificar exclusão de rascunhos.",
+    "url": "modelo-artigo.html",
+    "country": "",
+    "category": "Modelo",
+    "keywords": [
+      "rascunho"
+    ],
+    "status": "draft"
+  }
+]

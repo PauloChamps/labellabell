@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Busca | ImigraEuropa</title>
+<meta name="description" content="Busque conteúdos no ImigraEuropa.">
+<meta name="robots" content="noindex, follow">
+<link rel="stylesheet" href="assets/css/variables.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<script src="assets/js/site-data.js" defer>
+</script>
+<script src="assets/js/components.js" defer>
+</script>
+<script src="assets/js/site.js" defer>
+</script>
+<script src="assets/js/search.js" defer>
+</script>
+</head>
+<body data-root="">
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header id="site-header">
+<a href="index.html">ImigraEuropa — ir para a Home</a>
+</header>
+<div class="page-layout">
+<aside id="site-sidebar">
+<a href="index.html">Menu indisponível. Ir para a Home.</a>
+</aside>
+<main id="conteudo" class="main-content">
+<div class="wide">
+<nav class="breadcrumb" aria-label="Navegação estrutural">
+<ol>
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>Busca</li>
+</ol>
+</nav>
+<h1>Buscar no ImigraEuropa</h1>
+<p class="lead">Pesquise nos conteúdos cadastrados. Os resultados demonstrativos são identificados como exemplos.</p>
+<form id="search-form" class="filters" role="search">
+<div class="form-grid">
+<div class="field">
+<label for="search-query">Termo de pesquisa</label>
+<input id="search-query" type="search" autocomplete="off">
+</div>
+<div class="field">
+<label for="search-country">País</label>
+<select id="search-country">
+<option value="">Todos</option>
+</select>
+</div>
+<div class="field">
+<label for="search-category">Categoria</label>
+<select id="search-category">
+<option value="">Todas</option>
+</select>
+</div>
+</div>
+<button class="btn" type="submit">Pesquisar</button>
+</form>
+<p id="search-error" class="field-error" role="alert">
+</p>
+<p id="search-count" aria-live="polite">Carregando índice…</p>
+<div id="search-results" class="card-grid">
+</div>
+</div>
+</main>
+</div>
+<footer id="site-footer">
+<a href="index.html">ImigraEuropa — ir para a Home</a>
+</footer>
+<div class="backdrop" data-menu-backdrop hidden>
+</div>
+</body>
+</html>
