@@ -1,0 +1,12 @@
+{
+  "mode": "preview",
+  "base": "/",
+  "generatedPages": [
+    "index.html",
+    "portugal/index.html",
+    "espanha/index.html",
+    "franca/index.html",
+    "italia/index.html",
+    "modelo-artigo/index.html"
+  ]
+}

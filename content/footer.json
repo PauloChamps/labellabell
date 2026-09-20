@@ -1,0 +1,10 @@
+{
+  "links": [
+    { "label": "Sobre", "comingSoon": true },
+    { "label": "Contato", "comingSoon": true },
+    { "label": "Privacidade", "comingSoon": true },
+    { "label": "Ferramentas", "comingSoon": true }
+  ],
+  "note": "Conteúdo informativo a ser preenchido e revisto antes da publicação."
+}
+
