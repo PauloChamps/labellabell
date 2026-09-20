@@ -1,0 +1,59 @@
+[
+  {
+    "id": "home",
+    "type": "home",
+    "output": "index.html",
+    "status": "published",
+    "title": "Informação organizada para a sua jornada na Europa",
+    "description": "Navegue pela estrutura inicial do portal ImigraEuropa e encontre conteúdos organizados por país.",
+    "eyebrow": "Portal ImigraEuropa",
+    "intro": "Este é o início de um portal independente, organizado por países e temas. Os conteúdos editoriais ainda serão preenchidos e revistos antes da publicação.",
+    "sections": [
+      {
+        "title": "Explore por país",
+        "body": "Acesse as páginas-base de cada país. Nesta primeira entrega, elas funcionam como rascunhos estruturais para receber conteúdo verificado."
+      },
+      {
+        "title": "Conteúdo em construção",
+        "body": "Novas categorias, ferramentas, busca e vagas serão adicionadas nas próximas entregas, após a aprovação desta base."
+      }
+    ],
+    "related": ["portugal", "espanha", "franca", "italia"],
+    "videoId": ""
+  },
+  {
+    "id": "portugal", "type": "country", "output": "portugal/index.html", "status": "draft",
+    "title": "Portugal", "description": "Estrutura editorial de Portugal a preencher.", "eyebrow": "País",
+    "intro": "[Preencha esta introdução com conteúdo revisto sobre Portugal.]",
+    "sections": [{"title":"Visão geral","body":"[Adicione aqui o texto principal e as fontes verificadas.]"},{"title":"Orientações por tema","body":"[Apresente aqui os caminhos para as futuras categorias.]"}],
+    "image": {"src":"", "alt":""}, "videoId":"", "related":[]
+  },
+  {
+    "id": "espanha", "type": "country", "output": "espanha/index.html", "status": "draft",
+    "title": "Espanha", "description": "Estrutura editorial da Espanha a preencher.", "eyebrow": "País",
+    "intro": "[Preencha esta introdução com conteúdo revisto sobre a Espanha.]",
+    "sections": [{"title":"Visão geral","body":"[Adicione aqui o texto principal e as fontes verificadas.]"},{"title":"Orientações por tema","body":"[Apresente aqui os caminhos para as futuras categorias.]"}],
+    "image": {"src":"", "alt":""}, "videoId":"", "related":[]
+  },
+  {
+    "id": "franca", "type": "country", "output": "franca/index.html", "status": "draft",
+    "title": "França", "description": "Estrutura editorial da França a preencher.", "eyebrow": "País",
+    "intro": "[Preencha esta introdução com conteúdo revisto sobre a França.]",
+    "sections": [{"title":"Visão geral","body":"[Adicione aqui o texto principal e as fontes verificadas.]"},{"title":"Orientações por tema","body":"[Apresente aqui os caminhos para as futuras categorias.]"}],
+    "image": {"src":"", "alt":""}, "videoId":"", "related":[]
+  },
+  {
+    "id": "italia", "type": "country", "output": "italia/index.html", "status": "draft",
+    "title": "Itália", "description": "Estrutura editorial da Itália a preencher.", "eyebrow": "País",
+    "intro": "[Preencha esta introdução com conteúdo revisto sobre a Itália.]",
+    "sections": [{"title":"Visão geral","body":"[Adicione aqui o texto principal e as fontes verificadas.]"},{"title":"Orientações por tema","body":"[Apresente aqui os caminhos para as futuras categorias.]"}],
+    "image": {"src":"", "alt":""}, "videoId":"", "related":[]
+  },
+  {
+    "id": "modelo-artigo", "type": "article", "output": "modelo-artigo/index.html", "status": "draft",
+    "title": "[Título do artigo]", "description": "[Resumo editável do artigo.]", "eyebrow": "Modelo de artigo",
+    "intro": "[Escreva uma introdução objetiva e verificada.]",
+    "sections": [{"title":"[Título da primeira seção]","body":"[Desenvolva o conteúdo e indique fontes confiáveis.]"},{"title":"[Título da segunda seção]","body":"[Continue o conteúdo aqui.]"}],
+    "image": {"src":"", "alt":"[Descreva a imagem quando ela for adicionada]"}, "videoId":"", "related":[]
+  }
+]
