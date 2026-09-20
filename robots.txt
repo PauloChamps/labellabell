@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# Projeto de desenvolvimento. Revise antes de publicar e, somente então,
+# substitua por regras públicas e informe o sitemap definitivo.
