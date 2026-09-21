@@ -1,1 +1,388 @@
 .hero{padding-bottom:3rem}.country-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}.country-strip a{padding:1rem 0;border-bottom:3px solid var(--yellow);font-weight:800;text-decoration:none}.source-list li{margin:.65rem 0}.article-meta{display:flex;flex-wrap:wrap;gap:1rem;color:var(--muted);font-size:.9rem}.job-list{display:grid;gap:1rem}.job-card{padding:1.3rem;border:1px solid var(--line);border-radius:var(--radius)}.job-card h2{font-size:1.35rem}.job-meta{color:var(--muted)}.calculator-actions{display:flex;gap:.7rem;margin-top:1.2rem}.formula{font-family:ui-monospace,monospace;background:var(--blue-100);padding:.8rem}.contact-note{padding:1.2rem;border-left:4px solid var(--yellow);background:var(--yellow-soft)}
+/* =========================================================
+   HOME — MAIS COR E HIERARQUIA VISUAL
+   ========================================================= */
+
+.home-page {
+  background:
+    radial-gradient(
+      circle at 85% 12%,
+      rgba(245, 200, 66, 0.13),
+      transparent 22rem
+    ),
+    linear-gradient(
+      180deg,
+      #ffffff 0%,
+      #f7fbfe 100%
+    );
+}
+
+/* Área principal da Home */
+.home-page .main-content {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(232, 244, 250, 0.75),
+      rgba(255, 255, 255, 0) 34rem
+    );
+}
+
+/* Apresentação principal */
+.home-page .hero {
+  position: relative;
+  padding: clamp(2rem, 5vw, 4rem);
+  overflow: hidden;
+  border-radius: 0 0 3rem 0;
+  background:
+    linear-gradient(
+      135deg,
+      var(--blue-100) 0%,
+      #f4faff 55%,
+      var(--yellow-soft) 100%
+    );
+}
+
+/* Faixa decorativa no hero */
+.home-page .hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.45rem;
+  height: 100%;
+  background:
+    linear-gradient(
+      180deg,
+      var(--blue-600),
+      var(--yellow)
+    );
+}
+
+/* Círculo decorativo */
+.home-page .hero::after {
+  content: "";
+  position: absolute;
+  right: -6rem;
+  bottom: -8rem;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  background: rgba(20, 120, 184, 0.08);
+  pointer-events: none;
+}
+
+.home-page .hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.home-page .hero h1 {
+  color: var(--blue-950);
+}
+
+/* Pequenos títulos azuis */
+.home-page .eyebrow {
+  color: var(--blue-600);
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Países apresentados na Home */
+.home-page .country-strip {
+  margin-top: 2rem;
+}
+
+.home-page .country-strip a {
+  position: relative;
+  padding: 1rem;
+  border: 0;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 5px 18px rgba(8, 43, 76, 0.07);
+  color: var(--blue-950);
+  transition:
+    transform 0.18s ease,
+    background-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.home-page .country-strip a::after {
+  content: "";
+  position: absolute;
+  right: 1rem;
+  bottom: 0.65rem;
+  left: 1rem;
+  height: 0.2rem;
+  border-radius: 1rem;
+  background: var(--yellow);
+}
+
+.home-page .country-strip a:hover {
+  transform: translateY(-3px);
+  background: var(--white);
+  box-shadow: var(--shadow);
+}
+
+.home-page .country-strip small {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* Seções da Home */
+.home-page .section {
+  margin-top: 1rem;
+  padding: 3.5rem 0;
+}
+
+/* Cards com um pouco mais de vida */
+.home-page .card {
+  position: relative;
+  overflow: hidden;
+  border-color: transparent;
+  background:
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #f7fbfe
+    );
+  box-shadow: 0 8px 26px rgba(8, 43, 76, 0.08);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.home-page .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 0.28rem;
+  background:
+    linear-gradient(
+      90deg,
+      var(--blue-600),
+      var(--yellow)
+    );
+}
+
+.home-page .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 34px rgba(8, 43, 76, 0.13);
+}
+
+.home-page .card h3 {
+  color: var(--blue-950);
+}
+
+.home-page .card a:not(.btn) {
+  display: inline-flex;
+  margin-top: 0.4rem;
+  color: var(--blue-800);
+  font-weight: 800;
+}
+
+.home-page .card a:not(.btn)::after {
+  content: " →";
+  margin-left: 0.3rem;
+}
+
+/* Botões */
+.home-page .btn {
+  box-shadow: 0 8px 20px rgba(11, 79, 131, 0.18);
+}
+
+.home-page .btn-secondary {
+  box-shadow: none;
+}
+
+/* Fontes oficiais */
+.home-page .source-list {
+  padding: 1.4rem 1.4rem 1.4rem 2.8rem;
+  border-left: 0.3rem solid var(--yellow);
+  border-radius: 0 1rem 1rem 0;
+  background: var(--blue-100);
+}
+
+
+/* =========================================================
+   MENU LATERAL — PAÍSES EM DESTAQUE
+   ========================================================= */
+
+/*
+ * Portugal, Espanha, França e Itália.
+ * Seleciona somente os primeiros details dentro da navegação.
+ */
+.sidebar > nav > details {
+  margin-bottom: 0.75rem;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: var(--white);
+}
+
+/* Nome de cada país */
+.sidebar > nav > details > summary {
+  position: relative;
+  padding: 0.85rem 2.2rem 0.85rem 1rem;
+  background:
+    linear-gradient(
+      135deg,
+      var(--blue-950),
+      var(--blue-800)
+    );
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 850;
+  letter-spacing: 0.01em;
+  list-style: none;
+  transition:
+    background-color 0.18s ease,
+    color 0.18s ease;
+}
+
+/* Remove o marcador padrão */
+.sidebar > nav > details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Seta personalizada */
+.sidebar > nav > details > summary::after {
+  content: "›";
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  color: var(--yellow);
+  font-size: 1.35rem;
+  line-height: 1;
+  transform: translateY(-50%);
+  transition: transform 0.18s ease;
+}
+
+/* Gira a seta quando o país estiver aberto */
+.sidebar > nav > details[open] > summary::after {
+  transform:
+    translateY(-50%)
+    rotate(90deg);
+}
+
+/* País aberto */
+.sidebar > nav > details[open] > summary {
+  background:
+    linear-gradient(
+      135deg,
+      var(--blue-800),
+      var(--blue-600)
+    );
+  box-shadow:
+    inset 0.3rem 0 0 var(--yellow);
+}
+
+/* Área das páginas do país */
+.sidebar > nav > details > ul {
+  margin: 0;
+  padding: 0.65rem 0.75rem 0.8rem;
+  background: #f7fbfe;
+}
+
+/* Links comuns das subpáginas */
+.sidebar > nav > details > ul > li > a {
+  padding: 0.55rem 0.7rem;
+  border-radius: 0.45rem;
+  color: var(--blue-800);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+/* Efeito ao passar o cursor */
+.sidebar > nav > details > ul > li > a:hover {
+  background: var(--blue-100);
+  color: var(--blue-950);
+}
+
+/* Categorias que possuem outras subpáginas */
+.sidebar .menu-submenu {
+  margin: 0.2rem 0;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+}
+
+.sidebar .menu-submenu:last-child {
+  border-bottom: 0;
+}
+
+/* Documentação, vistos, trabalho, moradia etc. */
+.sidebar .menu-submenu > summary {
+  padding: 0.65rem 0.7rem;
+  background: transparent;
+  color: var(--blue-950);
+  font-size: 0.92rem;
+  font-weight: 800;
+}
+
+/* Subpáginas internas */
+.sidebar .menu-submenu-list {
+  margin: 0 0 0.45rem;
+  padding: 0.25rem 0 0.25rem 0.8rem;
+  border-left: 0.18rem solid var(--yellow);
+}
+
+.sidebar .menu-submenu-list a {
+  padding: 0.45rem 0.65rem;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.sidebar .menu-submenu-list a:hover {
+  background: var(--blue-100);
+  color: var(--blue-950);
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 800px) {
+  .home-page .main-content {
+    background:
+      linear-gradient(
+        180deg,
+        var(--blue-100),
+        var(--white) 28rem
+      );
+  }
+
+  .home-page .hero {
+    padding: 2rem 1.4rem;
+    border-radius: 0 0 2rem 0;
+  }
+
+  .sidebar > nav > details > summary {
+    padding: 1rem 2.4rem 1rem 1rem;
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .home-page .hero {
+    padding: 1.7rem 1.2rem;
+  }
+
+  .home-page .country-strip a {
+    padding: 0.9rem 1rem;
+  }
+
+  .home-page .section {
+    padding: 2.5rem 0;
+  }
+}
