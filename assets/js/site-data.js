@@ -148,10 +148,252 @@ window.IMIGRA_EUROPA = {
 },
 
     {
-      label: "Espanha",
-      url: "espanha/index.html",
+  label: "Espanha",
+  url: "espanha/index.html",
+
+  children: [
+    {
+      label: "Visão geral",
+      url: "espanha/index.html"
+    },
+
+    {
+      label: "Antes de imigrar",
+      url: "espanha/antes-de-imigrar/index.html",
+
+      children: [
+        {
+          label: "Brasileiros precisam de visto?",
+          url: "espanha/antes-de-imigrar/brasileiros-precisam-de-visto.html"
+        },
+        {
+          label: "Entrada como turista",
+          url: "espanha/antes-de-imigrar/entrar-como-turista.html"
+        },
+        {
+          label: "Documentos antes da viagem",
+          url: "espanha/antes-de-imigrar/documentos-antes-da-viagem.html"
+        },
+        {
+          label: "Planejamento financeiro",
+          url: "espanha/antes-de-imigrar/planejamento-financeiro.html"
+        }
+      ]
+    },
+
+    {
+      label: "Vistos",
+      url: "espanha/vistos/index.html",
+
+      children: [
+        {
+          label: "Visto de trabalho",
+          url: "espanha/vistos/visto-de-trabalho.html"
+        },
+        {
+          label: "Trabalho por conta própria",
+          url: "espanha/vistos/trabalho-por-conta-propria.html"
+        },
+        {
+          label: "Visto de estudo",
+          url: "espanha/vistos/visto-de-estudo.html"
+        },
+        {
+          label: "Residência não lucrativa",
+          url: "espanha/vistos/residencia-nao-lucrativa.html"
+        },
+        {
+          label: "Nômade digital",
+          url: "espanha/vistos/nomade-digital.html"
+        },
+        {
+          label: "Reagrupamento familiar",
+          url: "espanha/vistos/reagrupamento-familiar.html"
+        },
+        {
+          label: "Familiar de espanhol ou cidadão europeu",
+          url: "espanha/vistos/familiar-de-espanhol-ou-cidadao-europeu.html"
+        },
+        {
+          label: "Profissional altamente qualificado",
+          url: "espanha/vistos/profissional-altamente-qualificado.html"
+        }
+      ]
+    },
+
+    {
+      label: "Documentação",
+      url: "espanha/documentacao/index.html",
+
+      children: [
+        {
+          label: "Diferença entre NIE e TIE",
+          url: "espanha/documentacao/diferenca-entre-nie-e-tie.html"
+        },
+        {
+          label: "Como solicitar o NIE",
+          url: "espanha/documentacao/como-solicitar-nie.html"
+        },
+        {
+          label: "Como solicitar a TIE",
+          url: "espanha/documentacao/como-solicitar-tie.html"
+        },
+        {
+          label: "Empadronamiento",
+          url: "espanha/documentacao/empadronamiento.html"
+        },
+        {
+          label: "Número da Segurança Social",
+          url: "espanha/documentacao/numero-seguranca-social.html"
+        },
+        {
+          label: "Certificado digital e Cl@ve",
+          url: "espanha/documentacao/certificado-digital-e-clave.html"
+        },
+        {
+          label: "Checklist dos primeiros documentos",
+          url: "espanha/documentacao/checklist-primeiros-documentos.html"
+        }
+      ]
+    },
+
+    {
+      label: "Residência",
+      url: "espanha/residencia/index.html",
+
+      children: [
+        {
+          label: "Autorização de residência",
+          url: "espanha/residencia/autorizacao-de-residencia.html"
+        },
+        {
+          label: "Renovação da residência",
+          url: "espanha/residencia/renovar-residencia.html"
+        },
+        {
+          label: "Residência de longa duração",
+          url: "espanha/residencia/residencia-de-longa-duracao.html"
+        },
+        {
+          label: "Tipos de arraigo",
+          url: "espanha/residencia/index.html"
+        }
+      ]
+    },
+
+    {
+      label: "Trabalho",
+      url: "espanha/trabalho/index.html",
+
+      children: [
+        {
+          label: "Como procurar emprego",
+          url: "espanha/trabalho/como-procurar-emprego.html"
+        },
+        {
+          label: "Sites de emprego",
+          url: "espanha/trabalho/sites-de-emprego.html"
+        },
+        {
+          label: "Currículo na Espanha",
+          url: "espanha/trabalho/curriculo-na-espanha.html"
+        },
+        {
+          label: "Contrato de trabalho",
+          url: "espanha/trabalho/contrato-de-trabalho.html"
+        },
+        {
+          label: "Salário mínimo",
+          url: "espanha/trabalho/salario-minimo.html"
+        },
+        {
+          label: "Trabalhar como autônomo",
+          url: "espanha/trabalho/autonomo-na-espanha.html"
+        }
+      ]
+    },
+
+    {
+      label: "Moradia",
+      url: "espanha/moradia/index.html",
+
+      children: [
+        {
+          label: "Como alugar casa",
+          url: "espanha/moradia/como-alugar-casa.html"
+        },
+        {
+          label: "Documentos para alugar",
+          url: "espanha/moradia/documentos-para-alugar.html"
+        },
+        {
+          label: "Caução e garantias",
+          url: "espanha/moradia/caucao-e-garantias.html"
+        },
+        {
+          label: "Como evitar golpes",
+          url: "espanha/moradia/evitar-golpes.html"
+        }
+      ]
+    },
+
+    {
+      label: "Saúde",
+      url: "espanha/saude/index.html",
+
+      children: [
+        {
+          label: "Saúde pública",
+          url: "espanha/saude/como-funciona-saude-publica.html"
+        },
+        {
+          label: "Cartão de saúde",
+          url: "espanha/saude/cartao-de-saude.html"
+        },
+        {
+          label: "Seguro de saúde para visto",
+          url: "espanha/saude/seguro-saude-para-visto.html"
+        }
+      ]
+    },
+
+    {
+      label: "Educação",
+      url: "espanha/educacao/index.html",
       children: []
     },
+
+    {
+      label: "Finanças",
+      url: "espanha/financas/index.html",
+      children: []
+    },
+
+    {
+      label: "Mobilidade",
+      url: "espanha/mobilidade/index.html",
+      children: []
+    },
+
+    {
+      label: "Cidadania",
+      url: "espanha/cidadania/index.html",
+      children: []
+    },
+
+    {
+      label: "Comunidade",
+      url: "espanha/comunidade/index.html",
+      children: []
+    },
+
+    {
+      label: "Turismo",
+      url: "espanha/turismo/index.html",
+      children: []
+    }
+  ]
+},
 
     {
       label: "França",
